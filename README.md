@@ -1,7 +1,7 @@
 
 # Intelligent Cyber Intrusion Detection System using Hybrid CNN-LSTM
 
-![Cybersecurity Themed Banner - Optional: Create or find a suitable banner image and add it here]
+
 
 ## 🚀 Project Overview
 
@@ -42,8 +42,8 @@ The system is trained and evaluated on the KDD Cup '99 dataset (specifically, KD
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/vexter16/t-Cyber-Intrusion-Detection-System-using-a-Hybrid-CNN-LSTM-Mode.git
+    cd t-Cyber-Intrusion-Detection-System-using-a-Hybrid-CNN-LSTM-Mode
     ```
 
 2.  **Create a Virtual Environment (Recommended):**
