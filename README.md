@@ -61,8 +61,6 @@ The system is trained and evaluated on the KDD Cup '99 dataset (specifically, KD
     *   The project uses `KDDTrain+.txt` for model training and `KDDTest+.txt` for evaluation/dashboard testing.
 
 5.  **Generate Model Artifacts:**
-    *   Navigate to the `src/` directory (or wherever your training script is).
-    *   Update file paths within `model_training_and_artifact_generation.ipynb` (or `.py`) to point to your KDD dataset files and desired output location for artifacts (e.g., the `artifacts/` folder).
     *   Run the training script:
         ```bash
         
