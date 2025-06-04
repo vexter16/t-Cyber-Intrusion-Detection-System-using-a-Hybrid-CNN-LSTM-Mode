@@ -1,0 +1,93 @@
+ /* Main app background */
+.stApp {
+    background-color: #1a202c; /* Dark blue/grey */
+    color: #e2e8f0; /* Light grey text */
+}
+
+/* Titles */
+h1, h2, h3 {
+    color: #63b3ed; /* Light blue for titles */
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #3182ce; /* Blue */
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 24px;
+    font-weight: bold;
+}
+.stButton>button:hover {
+    background-color: #2c5282; /* Darker blue */
+}
+
+/* Sidebar */
+/* Try to find the correct class by inspecting element in browser if this doesn't work */
+/* For Streamlit 1.10.0+, it's often section[data-testid="stSidebar"] > div:first-child */
+section[data-testid="stSidebar"] {
+    background-color: #2d3748 !important; /* Slightly lighter dark blue/grey */
+}
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] p {
+    color: #a0aec0; /* Lighter grey for sidebar text */
+}
+section[data-testid="stSidebar"] .stFileUploader label {
+     color: #cbd5e0 !important;
+}
+
+
+/* Dataframes */
+.stDataFrame {
+    background-color: #2d3748;
+    border: 1px solid #4a5568;
+}
+/* Table headers in dataframe */
+.stDataFrame table th {
+    background-color: #4a5568;
+    color: #e2e8f0;
+}
+
+/* Metrics */
+div[data-testid="stMetric"] {
+    background-color: #2d3748;
+    border-left: 5px solid #63b3ed;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #a0aec0; /* Metric label color */
+}
+
+/* Custom success/error boxes for metrics */
+.success-box {
+    border: 1px solid #38a169;
+    background-color: rgba(47, 133, 90, 0.3); /* Semi-transparent success */
+    color: #68d391; /* Lighter green text */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    text-align: center;
+    font-weight: bold;
+}
+.error-box {
+    border: 1px solid #e53e3e;
+    background-color: rgba(197, 48, 48, 0.3); /* Semi-transparent error */
+    color: #fc8181; /* Lighter red text */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    text_align: center;
+    font-weight: bold;
+}
+
+/* Input widgets */
+.stTextInput>div>div>input, .stFileUploader>label {
+    background-color: #4a5568;
+    color: #e2e8f0;
+}
